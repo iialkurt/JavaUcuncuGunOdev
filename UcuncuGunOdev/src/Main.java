@@ -26,8 +26,14 @@ Student student = new Student();
 	StudentManager studentmanager = new StudentManager();
 	studentmanager.Add(student);
 	
+	StudentLogger studentlogger = new StudentLogger();
+	studentlogger.log();
+
 	InstructorManager instructormanager = new InstructorManager();
 	instructormanager.Add(instructor);
+	
+	InstructorLogger instructorlogger = new InstructorLogger();
+	instructorlogger.log();
 	
 	
 	}
